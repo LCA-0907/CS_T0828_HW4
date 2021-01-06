@@ -41,6 +41,21 @@ $ git clone https://github.com/LCA-0907/CS_T0828_HW4.git
 ```
 
 copy my code to the corresponding `src` dir in EDSR-Pytorch
+
+It should located like:
+```
++EDSR_PyTorch
+| +src
+| | +data
+| | | custom.py
+| | | .....
+| | option.py
+| | prepare_data.py
+| | template.py
+| | run.sh
+| | .....
+
+```
 ### Dataset Preparation
 Download dataset from [google drive](https://drive.google.com/drive/u/0/folders/1H-sIY7zj42Fex1ZjxxSC3PV1pK4Mij6x)
 Use `prepare_data.py` to generate LR training images.
