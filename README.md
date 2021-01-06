@@ -1,4 +1,3 @@
-
 # CS_T0828_HW4
 Code for Selected Topics in Visual Recognition
 using Deep Learning(2020 Autumn) HW4
@@ -41,7 +40,7 @@ $ git clone https://github.com/thstkdgus35/EDSR-PyTorch.git
 $ git clone https://github.com/LCA-0907/CS_T0828_HW4.git
 ```
 
-Put my code in the corresponding `src` dir in EDSR-Pytorch
+copy my code to the corresponding `src` dir in EDSR-Pytorch
 ### Dataset Preparation
 Download dataset from [google drive](https://drive.google.com/drive/u/0/folders/1H-sIY7zj42Fex1ZjxxSC3PV1pK4Mij6x)
 Use `prepare_data.py` to generate LR training images.
@@ -55,7 +54,7 @@ or run `run.sh`
 
 ### Testing
 To test the model, use command
-`python3 main.py --model RCAN --test_only --scale 3 --pre_train ../experiment/RCAN_BIX3_G10R20P48/model/model_best.pt --save_results --ext img --data_test Demo`
-
+`python3 main.py --model RCAN --test_only --scale 3 --pre_train ../experiment/RCAN_BIX3_G10R20P48/model/model_best.pt --save_results --ext img --data_test Demo --template RCAN`
+or run `run.sh`
 
 ###### tags: `Deep Learning` `CV` `Super resolution`
